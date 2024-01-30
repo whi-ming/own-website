@@ -1,0 +1,43 @@
+:root {
+  --image:url(../svg/pythbad.svg);
+}
+
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Barrio&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Roboto&family=Rubik+Spray+Paint&display=swap");
+  font-family: "Barrio", system-ui;
+  color: azure;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  min-height: 100vh;
+  background: #253a24;
+}
+
+/* For Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 1rem 10px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 50px;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
