@@ -90,15 +90,18 @@ button {
   margin-left: 800px;
 }
 
+#logos {
+  width: 100vw;
+  height: 600px;
+  position: relative;
+  border-style: solid;
+}
+
 .maskLogo {
   position: absolute;
   width: 500px;
   height: 1000px;
-  padding: 1rem;
   background: #f0ffff;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
 }
@@ -106,20 +109,45 @@ button {
 #pythonLogo {
   -webkit-mask-image: url(https://cdn.worldvectorlogo.com/logos/python-4.svg);
           mask-image: url(https://cdn.worldvectorlogo.com/logos/python-4.svg);
-  -webkit-mask-size: 500px;
-          mask-size: 500px;
-  transform: scale(0.5);
+  -webkit-mask-size: 200px;
+          mask-size: 200px;
+  margin-top: 10px;
+  margin-left: 15%;
 }
 
 #javaLogo {
   -webkit-mask-image: url(https://cdn.worldvectorlogo.com/logos/java-4.svg);
           mask-image: url(https://cdn.worldvectorlogo.com/logos/java-4.svg);
-  -webkit-mask-size: 500px;
-          mask-size: 500px;
-  transform: scale(0.5);
-  margin-left: 300px;
+  -webkit-mask-size: 150px;
+          mask-size: 150px;
+  margin-left: 38%;
+  margin-top: 10px;
 }
 
 #cLogo {
-  margin-left: 600px;
+  position: absolute;
+  width: 150px;
+  margin-left: 65%;
+  margin-top: 20px;
+}
+
+#htmlLogo {
+  width: 125px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 25%;
+}
+
+#javascriptLogo {
+  width: 125px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 55%;
+}
+
+#cssLogo {
+  width: 125px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 80%;
 }/*# sourceMappingURL=index.css.map */
