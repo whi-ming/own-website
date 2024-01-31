@@ -10,3 +10,17 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf)
+
+
+let t1 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'.hey',
+      start: '-700 center',
+      end: '50 center',
+      scrub: true,
+      markers: true
+  }
+})
+t1.to('.hey', {
+  y:-500
+})
