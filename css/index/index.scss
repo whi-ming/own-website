@@ -9,9 +9,6 @@
     transform: scale(1.5);
     z-index: -10;
 }
-.spacer {
-    height: 50vh;
-}
 .popUpText {
     font-size: 70px;
     text-align: center;
@@ -84,7 +81,6 @@ button{
     width: 100vw;
     height: 600px;
     position: relative;
-    border-style: solid;
 }
 .maskLogo {
     position: absolute;

@@ -20,8 +20,6 @@
   width: 100vw;
   height: 500px;
   background: #253a24;
-  border-style: solid;
-  border-color: aqua;
 }
 
 .blackBackground {
@@ -29,7 +27,7 @@
   position: absolute;
   display: flex;
   width: 100vw;
-  height: 500px;
+  height: 700px;
   background: black;
 }
 
@@ -63,6 +61,12 @@ header {
 }
 
 .lowerMenu {
+  width: 100vw;
+  margin-top: 250px;
   z-index: -1;
   position: absolute;
+}
+
+.spacer {
+  height: 50vh;
 }/*# sourceMappingURL=style.css.map */

@@ -16,7 +16,7 @@ let t1 = gsap.timeline({
   scrollTrigger:{
       trigger:'.hey',
       start: '-700 center',
-      end: '50 center',
+      end: '450 center',
       scrub: true,
       markers: true
   }
