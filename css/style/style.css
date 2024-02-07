@@ -41,11 +41,12 @@ body {
 }
 
 /* For Chrome, Safari and Opera */
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
 header {
+  z-index: 5;
   position: fixed;
   display: flex;
   justify-content: space-between;

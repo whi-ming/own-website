@@ -18,7 +18,6 @@ let t1 = gsap.timeline({
       start: '-700 center',
       end: '450 center',
       scrub: true,
-      markers: true
   }
 })
 t1.to('.hey', {
