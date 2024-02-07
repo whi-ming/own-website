@@ -20,6 +20,8 @@
   width: 100vw;
   height: 500px;
   background: #253a24;
+  border-style: s;
+  border-color: aqua;
 }
 
 .blackBackground {

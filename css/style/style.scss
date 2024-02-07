@@ -17,6 +17,8 @@
     width: 100vw;
     height: 500px;
     background: #253a24;
+    border-style: s;
+    border-color: aqua;
 }
 .blackBackground{
     z-index: -2;
@@ -38,6 +40,7 @@ body::-webkit-scrollbar{
     display: none; 
 }
 header {
+    z-index: 5;
     position: fixed;
     display: flex;
     justify-content: space-between;
