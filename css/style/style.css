@@ -16,7 +16,7 @@
 .hey {
   position: absolute;
   display: flex;
-  margin-top: 4800px;
+  margin-top: 4700px;
   width: 100vw;
   height: 500px;
   background: #253a24;
@@ -65,11 +65,11 @@ header {
 
 .lowerMenu {
   width: 100vw;
-  margin-top: 250px;
+  margin-top: 300px;
   z-index: -1;
   position: absolute;
 }
 
 .spacer {
-  height: 50vh;
+  height: 30vh;
 }/*# sourceMappingURL=style.css.map */
