@@ -11,19 +11,6 @@ function raf(time) {
 
 requestAnimationFrame(raf)
 
-function displayMore() {
-  var sub1 = document.getElementsById("more1");
-  var sub2 = document.getElementsById("more2");
-
-  if (sub1.style.display === "none") {
-    sub1.style.display = "inline";
-    sub2.style.display = "inline";
-  } else {
-    sub1.style.display = "none";
-    sub2.style.display = "none";
-  }
-}
-
 let t1 = gsap.timeline({
   scrollTrigger:{
       trigger:'.hey',
