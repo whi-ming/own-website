@@ -1,0 +1,13 @@
+.choice {
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 25%;
+  padding: 100px;
+  text-decoration: none;
+}
+
+.choice:hover {
+  color: #253a24;
+  background-color: azure;
+}/*# sourceMappingURL=projects.css.map */
